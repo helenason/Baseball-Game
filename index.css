@@ -1,0 +1,61 @@
+html {
+  width: 95%;
+  height: 95%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: rgb(0, 39, 0);
+  color: white;
+  zoom: 125%; /*non-standard*/
+}
+.css-container {
+  background-color: rgba(0, 29, 0, 0.733);
+  width: 50%;
+  height: 90%;
+}
+.css-list {
+  text-align: left;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  line-height: 150%;
+}
+.css-ans-list {
+  text-align: left;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  line-height: 119%;
+}
+.css-btn {
+  background-color: transparent;
+  border-radius: 2px;
+  color: white;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.6;
+  }
+}
+.bgImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  animation: fadeIn 0.5s linear;
+}
